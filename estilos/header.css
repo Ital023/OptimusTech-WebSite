@@ -1,0 +1,57 @@
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.logo__imagem{
+    width: 30%;
+}
+.logo__texto{
+    font-size: 1.125rem;
+    font-family: var(--fonte-inter);
+    color: var(--cor-logo);
+}
+.cabecalho__nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-left: -15em;
+}
+.cabecalho__nav__itens{
+    font-family: var(--fonte-inter);
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--cinza);
+}
+.cabecalho__cadastro{
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.cabecalho__cadastro__entrar{
+    color: var(--cinza);
+}
+
+.cabecalho__cadastro__cadastrar{
+    color: var(--branco);
+    background-color: var(--principal);
+    padding: 8% 14%;
+    border-radius: 8px;
+
+}
+.cabecalho__cadastro__entrar,.cabecalho__cadastro__cadastrar{
+    text-decoration: none;
+    font-family: var(--fonte-inter);
+    font-size: 1rem;
+}

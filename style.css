@@ -1,0 +1,14 @@
+@import url(./estilos/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root{
+    --principal:#8E2424;
+
+    --branco:#fff;
+    --cinza:#667085;
+    --cor-logo:#3A404E;
+
+
+    --fonte-inter: 'Inter';
+    
+}
