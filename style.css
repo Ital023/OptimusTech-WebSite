@@ -1,4 +1,5 @@
 @import url(./estilos/header.css);
+@import url(./estilos/salarios.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root{
@@ -54,22 +55,22 @@
 .estatisticas{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 0 10% 0 10%;
+
 }
 .estatisticas__lista{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    text-align: left;
-    margin: 3%;
-    gap: 2rem;
+    justify-content: center;
+    margin: 3% 0 3% 0;
+    gap: 3rem;
 }
 .estatisticas__lista__itens{
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+    
 }
 .itens__numero{
     font-size: 3.25rem;

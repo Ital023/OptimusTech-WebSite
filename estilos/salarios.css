@@ -1,0 +1,47 @@
+.salarios{
+    margin: 5% 25% 5% 25%;
+}
+.salarios__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.salarios__lista__itens{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.salarios__lista__itens__cargos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 3%;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px 24px 28px;
+}
+
+.salarios__lista__itens__titulo,.cargos__titulo{
+    font-family: var(--fonte-inter);
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--titulo);
+}
+
+
+.cargos__titulo{
+    font-size: 1.125rem;
+}
+
+.cargos__hora-e-salario{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.cargos__hora-e-salario__textos{
+    font-family: var(--fonte-inter);
+    font-weight: 500;
+    color: var(--cinza);
+    font-size: 1rem;
+}
