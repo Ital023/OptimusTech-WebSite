@@ -1,6 +1,7 @@
 @import url(./estilos/header.css);
 @import url(./estilos/salarios.css);
 @import url(./estilos/depoimentos.css);
+@import url(./estilos/footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root{
@@ -10,7 +11,7 @@
     --branco:#fff;
     --cinza:#667085;
     --cor-logo:#3A404E;
-
+    --footer: #F9FAFB;
 
     --fonte-inter: 'Inter';   
 }
