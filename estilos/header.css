@@ -60,3 +60,16 @@
 .cabecalho__nav__itens:hover{
     color: var(--titulo);
 }
+
+@media (max-width: 428px){
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cabecalho__nav{
+        display: flex;
+        width: 3%;
+    }
+}

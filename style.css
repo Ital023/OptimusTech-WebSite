@@ -128,3 +128,11 @@
     font-family: var(--fonte-inter);
     font-weight: 400;
 }
+@media (max-width: 428px){
+    .vagas__conteudo__imagem{
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
