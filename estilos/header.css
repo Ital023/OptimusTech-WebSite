@@ -31,6 +31,7 @@
     font-family: var(--fonte-inter);
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 500;
     color: var(--cinza);
 }
 .cabecalho__cadastro{
@@ -54,4 +55,8 @@
     text-decoration: none;
     font-family: var(--fonte-inter);
     font-size: 1rem;
+}
+
+.cabecalho__nav__itens:hover{
+    color: var(--titulo);
 }
