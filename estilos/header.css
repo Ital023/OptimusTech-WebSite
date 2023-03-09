@@ -63,13 +63,14 @@
 
 @media (max-width: 428px){
     .cabecalho{
+        padding: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        gap: 1rem;
     }
     .cabecalho__nav{
-        display: flex;
-        width: 3%;
+        margin-left: 0;
     }
+    
 }
