@@ -1,0 +1,38 @@
+.sobre-nos{
+    display: flex;
+    background-color: var(--branco);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.25rem;
+    padding: 7% 0 7% 0;
+}
+
+.sobre-nos__titulos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sobre-nos__sub-titulo{
+    color: var(--principal);
+    font-family: var(--fonte-inter);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.sobre-nos__titulo{
+    color: var(--titulo);
+    font-size: 3rem;
+    font-family: var(--fonte-inter);
+    font-weight: 600;
+}
+
+.sobre-nos__paragrafo{
+    color: var(--paragrafo);
+    text-align: center;
+    font-size: 1.25rem;
+    width: 53%;
+    font-family: var(--fonte-inter);
+}

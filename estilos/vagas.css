@@ -1,0 +1,36 @@
+.vagas{
+    margin: 4% 0;
+}
+.vagas__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.vagas_titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+.vagas__titulos__paratitulo{
+    font-size: 0.875rem;
+    font-family: var(--fonte-inter);
+    font-weight: 500;
+    color: var(--principal);
+    padding: 0.5% 1%;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+}
+.vagas__titulos__titulo{
+    font-family: var(--fonte-inter);
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--titulo);
+}
+.vagas__titulos__paragrafo{
+    color: var(--cinza);
+    font-size: 1.25rem;
+    font-family: var(--fonte-inter);
+    font-weight: 400;
+}

@@ -1,4 +1,7 @@
 @import url(./estilos/header.css);
+@import url(./estilos/sobre-nos.css);
+@import url(./estilos/estatisticas.css);
+@import url(./estilos/vagas.css);
 @import url(./estilos/salarios.css);
 @import url(./estilos/depoimentos.css);
 @import url(./estilos/footer.css);
@@ -20,118 +23,6 @@ body{
     box-sizing: border-box;
 }
 
-.sobre-nos{
-    display: flex;
-    background-color: var(--branco);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2.25rem;
-    padding: 7% 0 7% 0;
-}
-
-.sobre-nos__titulos{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.sobre-nos__sub-titulo{
-    color: var(--principal);
-    font-family: var(--fonte-inter);
-    font-weight: 600;
-    font-size: 1rem;
-}
-
-.sobre-nos__titulo{
-    color: var(--titulo);
-    font-size: 3rem;
-    font-family: var(--fonte-inter);
-    font-weight: 600;
-}
-
-.sobre-nos__paragrafo{
-    color: var(--paragrafo);
-    text-align: center;
-    font-size: 1.25rem;
-    width: 53%;
-    font-family: var(--fonte-inter);
-}
-.estatisticas{
-    display: flex;
-    flex-direction: column;
-    padding: 0 10% 0 10%;
-
-}
-.estatisticas__lista{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 3% 0 3% 0;
-    gap: 3rem;
-}
-.estatisticas__lista__itens{
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    
-}
-.itens__numero{
-    font-size: 3.25rem;
-    color: var(--principal);
-    font-family: var(--fonte-inter);
-    font-weight: 600;
-}
-.itens__titulo{
-    color: var(--titulo);
-    font-family: var(--fonte-inter);
-    font-weight: 500;
-    font-size: 1.125rem;
-}
-.itens__paragrafo{
-    font-family: var(--fonte-inter);
-    font-weight: 400;
-    color: var(--cinza);
-    font-size: 1rem;
-}
-.vagas{
-    margin: 4% 0;
-}
-.vagas__conteudo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4rem;
-}
-.vagas_titulos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.25rem;
-}
-.vagas__titulos__paratitulo{
-    font-size: 0.875rem;
-    font-family: var(--fonte-inter);
-    font-weight: 500;
-    color: var(--principal);
-    padding: 0.5% 1%;
-    background: rgba(142, 36, 36, 0.05);
-    border-radius: 1rem;
-}
-.vagas__titulos__titulo{
-    font-family: var(--fonte-inter);
-    font-weight: 600;
-    font-size: 2.25rem;
-    color: var(--titulo);
-}
-.vagas__titulos__paragrafo{
-    color: var(--cinza);
-    font-size: 1.25rem;
-    font-family: var(--fonte-inter);
-    font-weight: 400;
-}
 @media (max-width: 428px){
     body{
         box-sizing: border-box;
@@ -154,7 +45,7 @@ body{
         text-align: center;
     }
     .vagas__conteudo__imagem{
-        width: 95%;
+        width: 100%;
     }
     .depoimentos__subtitulo{
         text-align: center;
@@ -164,6 +55,17 @@ body{
         font-size: 1.5rem;
     }
     .rodape__subtitulo{
+        text-align: center;
+    }
+    .salarios {
+        margin: 15% 5% 5% 5%;
+    }
+    
+    .salarios__lista__itens__titulo{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .rodape__copyright{
         text-align: center;
     }
 
